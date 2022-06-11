@@ -1,0 +1,19 @@
+# Principais Comandos Git
+git clone - (copiar e colar o link do repositório e der enter)
+
+git status - 
+
+git commit -m "aqui colocar comentário"
+
+cd -  pra entrar dentro do repositório
+
+git add . ou git add -A (para adicionar todos os arquivos):
+Para que as novas pastas criadas estejam também no servidor remoto do github,
+ou seja enviar a pasta para o controle de versão. depois dê um git status e verás
+que o novo arquivo/pasta estará na cor verde, ou seja foi reconhecido.
+Agora precisamos de um git commit;
+depois dê um git status e verás a mensagem que é necessário fazer um git push.
+Então dê um git push origin main 
+
+
+ 
